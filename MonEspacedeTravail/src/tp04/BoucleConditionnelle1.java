@@ -10,7 +10,7 @@ public class BoucleConditionnelle1 {
 
 	public static void main(String[] args) {
 		String s1 = "azerty", s2 = "ytreza";
-		boolean flag = false;
+		boolean flag = true;
 		int i = 0, n = s1.length();
 		var strlen = (s1.length() == s2.length());
 		
@@ -19,7 +19,7 @@ public class BoucleConditionnelle1 {
 					break;
 				i++;
 			if (i == n)
-				flag = true; }
+				flag = false; }
 		while (i < n);
 	}
 }
