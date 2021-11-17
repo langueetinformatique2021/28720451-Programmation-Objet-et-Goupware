@@ -8,7 +8,6 @@ public class BoucleConditionnelle {
 		int i = 0, n = s1.length();
 		var strlen = (s1.length() == s2.length());
 		
-		
 		do {System.out.println(flag);
 			if (s1.charAt(i) != s2.charAt(n - i - 1))
 					break;
